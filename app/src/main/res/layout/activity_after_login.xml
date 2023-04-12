@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfterLogin">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="371dp"
+        android:layout_height="329dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/afterloginimge" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="355dp"
+        android:layout_height="55dp"
+        android:background="@drawable/darkgreen_button"
+        android:text="GET SELF TEST"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/covidRateTracker"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <Button
+        android:id="@+id/covidRateTracker"
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:background="@drawable/blue_button"
+        android:text="COVID RATE TRACKER"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="71dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_button"
+        android:text="logout"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/loginuserView"
+        android:layout_width="272dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="33dp"
+        android:gravity="center"
+        android:textColor="#F30909"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameView"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="286dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="104dp"
+        android:gravity="center"
+        android:textColor="#0BC513"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
